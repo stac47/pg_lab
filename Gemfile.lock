@@ -1,0 +1,44 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    activemodel (7.1.1)
+      activesupport (= 7.1.1)
+    activerecord (7.1.1)
+      activemodel (= 7.1.1)
+      activesupport (= 7.1.1)
+      timeout (>= 0.4.0)
+    activesupport (7.1.1)
+      base64
+      bigdecimal
+      concurrent-ruby (~> 1.0, >= 1.0.2)
+      connection_pool (>= 2.2.5)
+      drb
+      i18n (>= 1.6, < 2)
+      minitest (>= 5.1)
+      mutex_m
+      tzinfo (~> 2.0)
+    base64 (0.1.1)
+    bigdecimal (3.1.4)
+    concurrent-ruby (1.2.2)
+    connection_pool (2.4.1)
+    drb (2.1.1)
+      ruby2_keywords
+    i18n (1.14.1)
+      concurrent-ruby (~> 1.0)
+    minitest (5.20.0)
+    mutex_m (0.1.2)
+    pg (1.5.4)
+    ruby2_keywords (0.0.5)
+    timeout (0.4.0)
+    tzinfo (2.0.6)
+      concurrent-ruby (~> 1.0)
+
+PLATFORMS
+  x86_64-linux
+
+DEPENDENCIES
+  activerecord
+  pg (~> 1.5)
+
+BUNDLED WITH
+   2.4.20
